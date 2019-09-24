@@ -1,10 +1,13 @@
 package com.fci.shamim.fci;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
@@ -90,6 +93,7 @@ public class Home extends AppCompatActivity
         });
 
     }
+/*
 
     @Override
     public void onBackPressed() {
@@ -100,6 +104,7 @@ public class Home extends AppCompatActivity
             super.onBackPressed();
         }
     }
+*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -137,8 +142,18 @@ public class Home extends AppCompatActivity
 
         } else if (id == R.id.nav_tools) {
 
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.addTeacherMId) {
+            Intent intent=new Intent(getApplicationContext(),Add_Teacher.class);
+            startActivity(intent);
+        } else if (id == R.id.addStaffMId) {
+            Intent intent=new Intent(getApplicationContext(),ADD_OfficeStaffs.class);
+            startActivity(intent);
+        }else if (id == R.id.addPhotoMId) {
+            Intent intent=new Intent(getApplicationContext(),Upload_Image.class);
+            startActivity(intent);
+        }else if (id == R.id.sentNoticeMId) {
+            Intent intent=new Intent(getApplicationContext(),Send_Notice.class);
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
 
         }
@@ -176,6 +191,35 @@ public class Home extends AppCompatActivity
             }
         });
 */
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        }
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Are you sure you want to exit?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Home.this.finish();
+
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
+
+
+
 
 
     }

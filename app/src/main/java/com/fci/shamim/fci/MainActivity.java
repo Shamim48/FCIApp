@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Intent i=new Intent(getApplicationContext(),Home.class);
+        Intent i=new Intent(getApplicationContext(),SingIn.class);
         startActivity(i);
+        finish();
     }
 }
