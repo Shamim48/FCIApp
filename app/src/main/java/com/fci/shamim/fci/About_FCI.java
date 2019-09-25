@@ -10,5 +10,7 @@ public class About_FCI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about__fci);
+
+        //now ads
     }
 }

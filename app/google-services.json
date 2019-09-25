@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "539228045544",
+    "firebase_url": "https://fciappwithchat.firebaseio.com",
+    "project_id": "fciappwithchat",
+    "storage_bucket": "fciappwithchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539228045544:android:c39505291544347dffc95d",
+        "android_client_info": {
+          "package_name": "com.fci.shamim.fci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539228045544-n992ebtt4ksccvntesa3rm9o5k122h6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fci.shamim.fci",
+            "certificate_hash": "2250d52fed94b5382c59b8f7b13dad984b23e859"
+          }
+        },
+        {
+          "client_id": "539228045544-8u7t9ltjshnc9jhq0uekjilspgh7t1cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrO7mjtVWLuFN62a528zz2_-piwFpdAJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539228045544-8u7t9ltjshnc9jhq0uekjilspgh7t1cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
