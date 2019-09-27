@@ -3,8 +3,11 @@ package com.fci.shamim.fci;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class SingUp extends AppCompatActivity {
+
+    EditText nameEt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
