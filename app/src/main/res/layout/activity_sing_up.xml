@@ -499,6 +499,26 @@
                     android:paddingLeft="5dp"
                     android:textSize="16dp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Sector"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+
+                <EditText
+                    android:id="@+id/jobSectorId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextbg"
+                    android:hint=" Programming/ Graphics Design or etc."
+                    android:paddingLeft="5dp"
+                    android:textSize="16dp" />
+
 
                 <!-- ...............Password................. -->
 
