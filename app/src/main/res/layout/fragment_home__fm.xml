@@ -41,7 +41,7 @@
                    android:layout_height="match_parent">
 
                    <ImageView
-                       android:src="@drawable/ic_abouticon"
+                       android:src="@drawable/aboutfci_icon"
                        android:layout_width="80dp"
                        android:layout_height="80dp" />
 
@@ -75,7 +75,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/dept_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -109,7 +109,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/principal_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -142,7 +142,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/teachers_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -174,12 +174,12 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/staff"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
                     <TextView
-                        android:text="Office Stuffs"
+                        android:text="Office Staffs"
                         android:textColor="#000"
                         android:textSize="18dp"
                         android:layout_width="wrap_content"
@@ -206,7 +206,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/cr_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -238,7 +238,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/hostel_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -270,7 +270,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/activity_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -304,7 +304,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/notice_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -338,7 +338,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/routine_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -406,7 +406,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/seip_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
@@ -437,7 +437,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:src="@drawable/ic_abouticon"
+                    android:src="@drawable/location_icon"
                     android:layout_width="80dp"
                     android:layout_height="80dp" />
 
@@ -470,7 +470,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/ic_abouticon"
+                        android:src="@drawable/gallery_icon"
                         android:layout_width="80dp"
                         android:layout_height="80dp" />
 
