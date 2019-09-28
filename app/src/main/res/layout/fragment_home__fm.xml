@@ -41,7 +41,7 @@
                    android:layout_height="match_parent">
 
                    <ImageView
-                       android:src="@drawable/aboutfci_icon"
+                       android:src="@drawable/about_icon"
                        android:layout_width="80dp"
                        android:layout_height="80dp" />
 
