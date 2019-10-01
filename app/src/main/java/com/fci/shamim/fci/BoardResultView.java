@@ -23,7 +23,7 @@ public class BoardResultView extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("www.bteb.gov.bd");
+        webView.loadUrl("http://www.bteb.gov.bd");
     }
 
     @Override
