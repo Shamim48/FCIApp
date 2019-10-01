@@ -44,7 +44,7 @@
                 android:layout_height="48dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/callnowbtn"></Button>
+               ></Button>
 
             <TextView
                 android:layout_width="match_parent"

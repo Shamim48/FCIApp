@@ -16,18 +16,16 @@ import com.fci.shamim.fci.About_FCI;
 import com.fci.shamim.fci.Department;
 import com.fci.shamim.fci.Principal;
 import com.fci.shamim.fci.R;
+import com.fci.shamim.fci.Result;
 import com.fci.shamim.fci.Teachers;
 
 
 public class Home_FM extends Fragment implements View.OnClickListener {
-  private CardView aboutFCICv, department, principal, teachers;
+    private CardView aboutFCICv, department, principal, teachers, result;
 
     public Home_FM() {
         // Required empty public constructor
     }
-
-
-
 
 
     @Override
@@ -40,15 +38,18 @@ public class Home_FM extends Fragment implements View.OnClickListener {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 
-        aboutFCICv=view.findViewById(R.id.aboutFCICvId);
+        aboutFCICv = view.findViewById(R.id.aboutFCICvId);
         department = view.findViewById(R.id.DepartmentId);
         principal = view.findViewById(R.id.PrincipalButtonID);
         teachers = view.findViewById(R.id.TeachersbtnID);
+        result = view.findViewById(R.id.resultId);
+
 
         aboutFCICv.setOnClickListener(this);
         department.setOnClickListener(this);
         principal.setOnClickListener(this);
         teachers.setOnClickListener(this);
+        result.setOnClickListener(this);
 
         super.onViewCreated(view, savedInstanceState);
     }
@@ -56,25 +57,25 @@ public class Home_FM extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        if(view.getId()==R.id.aboutFCICvId){
+        if (view.getId() == R.id.aboutFCICvId) {
 
-            Intent i=new Intent(getContext(), About_FCI.class);
+            Intent i = new Intent(getContext(), About_FCI.class);
             startActivity(i);
-        }
-        else if(view.getId()==R.id.DepartmentId){
+        } else if (view.getId() == R.id.DepartmentId) {
 
-            Intent intent=new Intent(getActivity(),Department.class);
+            Intent intent = new Intent(getActivity(), Department.class);
             startActivity(intent);
-        }
-        else if(view.getId()==R.id.PrincipalButtonID){
+        } else if (view.getId() == R.id.PrincipalButtonID) {
 
-            Intent i=new Intent(getActivity(), Principal.class);
+            Intent i = new Intent(getActivity(), Principal.class);
             startActivity(i);
-        }
-        else if(view.getId()==R.id.TeachersbtnID){
+        } else if (view.getId() == R.id.TeachersbtnID) {
 
-            Intent i=new Intent(getActivity(),Teachers.class);
+            Intent i = new Intent(getActivity(), Teachers.class);
             startActivity(i);
+        } else if (view.getId() == R.id.resultId) {
+            Intent intent = new Intent(getActivity(), Result.class);
+            startActivity(intent);
         }
     }
 }
