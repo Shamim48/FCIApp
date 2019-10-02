@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 
 import com.fci.shamim.fci.About_FCI;
 import com.fci.shamim.fci.Department;
+import com.fci.shamim.fci.Location;
 import com.fci.shamim.fci.Principal;
 import com.fci.shamim.fci.R;
 import com.fci.shamim.fci.Result;
@@ -21,7 +22,7 @@ import com.fci.shamim.fci.Teachers;
 
 
 public class Home_FM extends Fragment implements View.OnClickListener {
-    private CardView aboutFCICv, department, principal, teachers, result;
+    private CardView aboutFCICv, department, principal, teachers, result, location;
 
     public Home_FM() {
         // Required empty public constructor
@@ -43,6 +44,7 @@ public class Home_FM extends Fragment implements View.OnClickListener {
         principal = view.findViewById(R.id.PrincipalButtonID);
         teachers = view.findViewById(R.id.TeachersbtnID);
         result = view.findViewById(R.id.resultId);
+        location = view.findViewById(R.id.locationID);
 
 
         aboutFCICv.setOnClickListener(this);
@@ -50,6 +52,7 @@ public class Home_FM extends Fragment implements View.OnClickListener {
         principal.setOnClickListener(this);
         teachers.setOnClickListener(this);
         result.setOnClickListener(this);
+        location.setOnClickListener(this);
 
         super.onViewCreated(view, savedInstanceState);
     }
@@ -75,6 +78,9 @@ public class Home_FM extends Fragment implements View.OnClickListener {
             startActivity(i);
         } else if (view.getId() == R.id.resultId) {
             Intent intent = new Intent(getActivity(), Result.class);
+            startActivity(intent);
+        } else if (view.getId() == R.id.locationID) {
+            Intent intent = new Intent(getActivity(), Location.class);
             startActivity(intent);
         }
     }
